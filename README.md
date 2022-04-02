@@ -38,21 +38,29 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
+If you recorded multiple GIFs for all the implemented features, you can add them here:  
+
+Click the start button to start playing.
+If your guess is wrong you lose the game
+![](lose.gif).   
+
+You have to get all correct guesses to win the game
+![](win.gif).   
+
+Here's a much shorter preview towards the end of the game
+![](winShort.gif)
 ![](gif4-link-here)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+To complete this project I used the provided CSS color codes link from the tutorial and another website (https://coolors.co/) to generate additional colors. I also used this link (https://pages.mtu.edu/~suits/notefreqs.html) to get the frequencies for the different buttons' sounds.  
+My understanding of HTML, CSS and JavaScript basics comes from Colt Steele's Udemy Intro to web development course. Although I have not used it to finish this project, I beleive having gone through the foundations of web development helped move faster with this project all while understanding what I was doing, not only copy/pasting from the tutorial.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+Overall, working on this project went smooth. The tutorial breaks down the requirements in a very clear way. However, as a beginner, I tend sometimes to get excited and immersed into writing code that I may miss something critical. In this case, when I finished the tutorial and tried to run the game from start to finish, everything was ok except that the hints were not playing. I went back to my code and did a full review, focusing first on the playSingleClue and playClueSequence functions. I reviewed the tutorial step by step and found the problem: I did not call playClueSequence() in the startGame function.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+After completing this submission, a few questions come to my mind: This project was based on a step-by-step tutorial. How the process look like in industry real-life situations. I explored in school SDLC and the design process and I always wondered, how would these different tasks be divided in practice. Should a developer be involved in styling a web application or their job is purely executing designers' ideas and visions? With the ever growing pace of  new technologies appearing and developing, for a beginner like me, how can you find the right balance between learning the basics and building solid foundations while at the same time trying to keep up with everything new in the field?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
